@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/7/trunk/UserPanelQueue/src
+END
+Direction.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/13/trunk/UserPanelQueue/src/Direction.java
+END
+UserPanelQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/40/trunk/UserPanelQueue/src/UserPanelQueue.java
+END
+UserPanelRequestAscComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/13/trunk/UserPanelQueue/src/UserPanelRequestAscComparator.java
+END
+UserPanelRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/40/trunk/UserPanelQueue/src/UserPanelRequest.java
+END
+UserPanelQueueConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/40/trunk/UserPanelQueue/src/UserPanelQueueConfiguration.java
+END
+UserPanelQueueFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/40/trunk/UserPanelQueue/src/UserPanelQueueFactory.java
+END
+IUserPanelQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/20/trunk/UserPanelQueue/src/IUserPanelQueue.java
+END
+UserPanelRequestDescComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/13/trunk/UserPanelQueue/src/UserPanelRequestDescComparator.java
+END

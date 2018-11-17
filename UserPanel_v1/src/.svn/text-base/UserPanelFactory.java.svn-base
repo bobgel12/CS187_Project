@@ -1,0 +1,29 @@
+
+public class UserPanelFactory {
+
+	public static IUserPanel getUserPanelInstance(){
+		 IUserPanel userPanel = null;
+		
+		 
+		if(UserPanelConfiguration.getUserPanelType().equals("default"))
+		userPanel = new UserPanel();
+		
+		userPanel.setNumberFloors(UserPanelConfiguration.getNumberFloors());	
+		
+		System.out.println("UserPanelConfiguration.getButtonColor()"+UserPanelConfiguration.getButtonColor());
+		 userPanel.setButtonColor(UserPanelConfiguration.getButtonColor());
+		 
+		 userPanel.setActiveButtonColor(UserPanelConfiguration.getActiveButtonColor());
+		 
+		if(UserPanelConfiguration.getCarType().equals("default")){
+			userPanel.setCar(new Car());
+		}
+		
+		/*if(UserPanelConfiguration.getQueueType().equals("default")){
+			userPanel.setCarControllerQueue(new UserPanelQueue());
+		}*/
+		
+		return userPanel;		
+	}
+
+}

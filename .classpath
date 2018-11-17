@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="AdminConsole_v1/src"/>
+	<classpathentry kind="src" path="Alarm/src"/>
+	<classpathentry kind="src" path="Algorithm_v1/src"/>
+	<classpathentry kind="src" path="Car_v1/src"/>
+	<classpathentry kind="src" path="CarController_v1/src"/>
+	<classpathentry kind="src" path="Door/src"/>
+	<classpathentry kind="src" path="DoorPanel/src"/>
+	<classpathentry kind="src" path="FloorPanel_v1/src"/>
+	<classpathentry kind="src" path="FloorPanelQueue/src"/>
+	<classpathentry kind="src" path="Jars/jgoodies-forms-1.4.2/src/core"/>
+	<classpathentry kind="src" path="Jars/jgoodies-forms-1.4.2/src/extras"/>
+	<classpathentry kind="src" path="Jars/jgoodies-forms-1.4.2/src/test"/>
+	<classpathentry kind="src" path="MetaController/src"/>
+	<classpathentry kind="src" path="UserPanel_v1/src"/>
+	<classpathentry kind="src" path="UserPanelQueue/src"/>
+	<classpathentry kind="src" path="Emergency"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="UserPanel_v1/bin"/>
+</classpath>

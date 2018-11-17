@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="C:/Users/Aravind/Documents/Sandhya/275/project2/ElevatorProject/Car/jars/UserPanelQueue.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Aravind/Documents/Sandhya/275/finalJars/Door.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Aravind/Documents/Sandhya/275/finalJars/DoorPanel.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Aravind/Documents/Sandhya/275/finalJars/CarController1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Aravind/Documents/Sandhya/275/finalJars/UserPanel.jar"/>
+	<classpathentry kind="lib" path="lib/forms.jar" sourcepath="lib/forms-src.zip">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/Aravind/Documents/Sandhya/275/project2/ElevatorProject/Car/lib/forms-javadoc.zip!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/美国/elevator-system/Jars/Algorithm.jar"/>
+	<classpathentry kind="lib" path="E:/美国/elevator-system/Jars/Car.jar"/>
+	<classpathentry kind="lib" path="E:/美国/elevator-system/Jars/CarController.jar"/>
+	<classpathentry kind="lib" path="E:/美国/elevator-system/Jars/Door.jar"/>
+	<classpathentry kind="lib" path="E:/美国/elevator-system/Jars/DoorPanel.jar"/>
+	<classpathentry kind="lib" path="E:/美国/elevator-system/Jars/FloorPanel.jar"/>
+	<classpathentry kind="lib" path="E:/美国/elevator-system/Jars/FloorPanelQueue.jar"/>
+	<classpathentry kind="lib" path="E:/美国/elevator-system/Jars/MetaController.jar"/>
+	<classpathentry kind="lib" path="E:/美国/elevator-system/Jars/UserPanel.jar"/>
+	<classpathentry kind="lib" path="E:/美国/elevator-system/Jars/UserPanelQueue.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

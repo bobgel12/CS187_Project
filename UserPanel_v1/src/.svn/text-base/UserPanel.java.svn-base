@@ -1,0 +1,65 @@
+import javax.swing.JPanel;
+
+public class UserPanel implements IUserPanel {
+
+	private ICar car = null;
+	
+	private UserPanelColor buttonColor = null;
+	
+	private UserPanelColor activeButtonColor = null;
+	
+	private UserPanelUI userPanelUI = null;
+	
+	
+	public ICar getCar() {
+		return car;
+	}
+
+	public void setCar(ICar car) {
+		this.car = car;
+	}
+
+	public void setNumberFloors(int numberFloors) {
+		this.numberFloors = numberFloors;
+	}
+
+	private int numberFloors = 1;
+
+	public int getNumberFloors() {
+		return numberFloors;
+	}
+
+	public UserPanel() {
+	
+	}
+
+
+	@Override
+	public JPanel createUserPanel() {
+		
+		userPanelUI =  new UserPanelUI(numberFloors, buttonColor, activeButtonColor,  car);
+		return userPanelUI;
+	}
+	
+	@Override
+	public void setActiveButtonColor(UserPanelColor color) {
+		this.activeButtonColor = color;
+		
+	}
+
+	@Override
+	public void setButtonColor(UserPanelColor color) {
+		this.buttonColor = color;
+		
+	}
+
+	@Override
+	public void deactivateFloorButton(int floorNumber) {
+		userPanelUI.deactivateFloorButton(floorNumber);
+		
+	}
+
+	
+	
+
+}
