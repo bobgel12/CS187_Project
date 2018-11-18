@@ -22,6 +22,6 @@ public interface IUserPanel {
     
 //	Code Added By Phuc Le for Emergency Switch
 	/* -------------------*/
-    Emergency getEmergency();
+    EmergencySwitch getEmergency();
 	/* -------------------*/
 }

@@ -26,7 +26,7 @@ public class UserPanelUI extends JPanel {
 //	Code Added By Phuc Le for Emergency Switch
 	/* -------------------*/
 	
-	private Emergency emergency = null;
+	private EmergencySwitch emergency = null;
 	JButton EmergencyButton = null;
 	
 	/* -------------------*/
@@ -46,7 +46,7 @@ public class UserPanelUI extends JPanel {
 
 
 	public UserPanelUI(int numFloors, UserPanelColor buttonColor,
-			UserPanelColor activeButtonColor, ICar car, Emergency emergencya) {
+			UserPanelColor activeButtonColor, ICar car, EmergencySwitch emergencya) {
 		
 		this.emergency = emergencya;
 		

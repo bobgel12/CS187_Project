@@ -21,7 +21,7 @@ public class UserPanel implements IUserPanel {
 //	Code Added By Phuc Le for Emergency Switch
 	/* -------------------*/
 	
-	private Emergency emergency = new Emergency();
+	private EmergencySwitch emergency = new EmergencySwitch();
 	
 	/* -------------------*/
 	
@@ -64,7 +64,7 @@ public class UserPanel implements IUserPanel {
 //	Code Added By Phuc Le for Emergency Switch
 	/* -------------------*/
 	
-	public Emergency getEmergency() {
+	public EmergencySwitch getEmergency() {
 		return emergency;
 	}
 	

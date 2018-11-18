@@ -1,6 +1,6 @@
 import javax.swing.JPanel;
 
-public class Emergency {
+public class EmergencySwitch {
 	
 	private UserPanel userPanel = null;
 	
@@ -35,7 +35,7 @@ public class Emergency {
 		this.userPanel = userPanel;
 	}
 
-	public Emergency() {
+	public EmergencySwitch() {
 		
 	}
 
